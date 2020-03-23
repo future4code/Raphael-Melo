@@ -33,10 +33,10 @@ div>p:first-child {
     display: inline;
 }
 
-div img {
-    background: black;
-}
+.container-do-search {
 
+    text-align: center;
+} 
 .botao-amarelo {
     background-color: #ffaf43;
     width: 250px;
@@ -114,10 +114,9 @@ td button {
     border-radius: 5px;
     color: black;
 }
-td img {
-    width: 30px;
+td svg {
+    background-color: white;
 }
-
 .container-do-search {
     margin-top: 20px;
     height: 100px;
