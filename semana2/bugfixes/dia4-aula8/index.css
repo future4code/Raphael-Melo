@@ -58,8 +58,13 @@ div>p:first-child {
 .icone {
     height: 15px;
 }
+button:active {
+    color: white;
+}
 
-
+button:hover {
+    background-color: orange;
+}
 /** 
   *
   *  ESTILOS HOME 
