@@ -101,9 +101,15 @@ button:hover {
   *
   **/
 
+
 div:nth-child(2),
 div:last-child {
     text-align: center;
+}
+
+input {
+    border-style: none;
+    border-bottom: 2px solid #ccc;
 }
 
 table {
