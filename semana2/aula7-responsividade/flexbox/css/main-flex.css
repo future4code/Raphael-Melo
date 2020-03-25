@@ -1,0 +1,166 @@
+ 
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+
+  
+}
+header {
+  height: 10vh;
+  width: 100vw;
+  background-color: red;
+}
+
+/*SECTION 1*/
+#section1 {
+  height: auto;
+  width: 100%;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+
+}
+
+#section1 article {
+  width: 30vw ;
+  margin-top: 10px;
+  height: 100px;
+ 
+}
+
+#article1, #article4 {
+  background-color: blue;
+  
+}
+
+#article2, #article5 {
+  background-color: yellow;
+}
+
+
+#article3, #article6 {
+  background-color: green;
+}
+
+
+
+
+/*SECTION 1*/
+/*SECTION 2*/
+
+#section2 {
+  
+  height: auto;
+  width: 100%;
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#section2 article { 
+  width: 47vw ;
+  height: 250px;
+   background-color: black;
+  
+}
+
+/*SECTION 2*/
+/*SECTION 3*/
+
+#section3 {
+  
+  height: auto;
+  width: 100%;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+
+#section3 article {
+  
+  width: 30vw ;
+  height: 100px;
+  border: 1px solid black; 
+ }
+
+ /*SECTION 3*/
+/*@@media (max-width: 768px)*/
+
+
+ @media (max-width: 768px) {
+
+  
+  
+     /*SECTION 1*/
+
+  #article1, #article4, #article2, #article5 {
+    min-width: 47vw;
+  }
+  
+ 
+  #article3, #article6     {
+
+    min-width: 96vw;
+    margin: 10px 0;
+
+  }
+/*SECTION 1*/
+/*SECTION 3*/
+
+#sec3-article2, #sec3-article1 {
+  min-width: 47vw;
+
+} 
+
+#sec3-article3 { 
+      margin-top: 10px;
+      min-width: 96vw;
+
+}
+}
+/*@@media (max-width: 768px)*/
+
+
+@media (max-width: 425px) {
+/*SECTION 1*/
+
+  #article1, #article2, #article3, #article4, #article5, #article6 {
+    min-width: 96vw;
+    margin: 10px 0 0 0;
+  }
+
+/*SECTION 1*/
+/*SECTION 2*/
+
+  #section2 article { 
+    min-width: 96vw;
+    margin: 10px 0 0 0;
+
+    
+  }
+/*SECTION 2*/
+/*SECTION 3*/
+
+#section3 article {
+  
+  min-width: 96vw;
+  margin: 10px 0 0 0;
+}
+
+
+
+}
+
+
+
+  
