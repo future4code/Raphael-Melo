@@ -6,157 +6,93 @@
 
 body {
 
-  
-}
-header {
-  height: 10vh;
-  width: 100vw;
-  background-color: red;
+  align-items: center;
+
 }
 
-/*SECTION 1*/
-#section1 {
-  height: auto;
-  width: 100%;
-  margin-top: 10px;
+#container {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr;
+
   
-}
-
-#section1 article {
-  width: 30vw ;
-  margin-top: 10px;
-  height: 100px;
-  justify-self: center;
-
  
 }
 
-#article1, #article4 {
+header {
+  background-color: red;
+  height: 100px;
+  margin-bottom: 5px;  
+}
+
+#section1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 16px;
+  row-gap: 16px;
+  padding: 10px;  
+}
+
+#article1, #article4  {
   background-color: blue;
-  
+
+  height: 200px;
 }
 
 #article2, #article5 {
   background-color: yellow;
+
+  height: 200px;
+
 }
-
-
 #article3, #article6 {
   background-color: green;
+
+  height: 200px;
+
 }
 
 
-
-
-/*SECTION 1*/
-/*SECTION 2*/
+/*============================================================*/
 
 #section2 {
   
-  height: auto;
-  width: 100%;
-  margin-top: 10px;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  
 
-  
-}
-
-#section2 article { 
-  background-color: hotpink;
-  width: 46vw ;
-  margin-top: 10px;
-  height: 300px;
-  justify-self: center;
-  align-items: center;
-  
-  
-}
-
-
-#big-article1 {
-  margin: 0 2vw 0 0 ;
-}
-/*SECTION 2*/
-/*SECTION 3*/
-
-#section3 {
   
   height: auto;
-  width: 100%;
-  margin-top: 10px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-wrap: wrap;
+
+  
+  column-gap: 16px;
+  row-gap: 16px;
+  padding: 10px;  
 }
 
+#section2 article {
+  justify-self: stretch;
+  background-color: black;
+  height: 400px;
+
+  
+}
+
+
+/*============================================================*/
+
+
+
+#section3 {
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  height: auto; 
+  column-gap: 16px;
+  row-gap: 16px;
+  padding: 10px;  
+  margin-bottom: 50px;
+}
 
 #section3 article {
-  
-  width: 30vw ;
-  height: 100px;
-  border: 1px solid black; 
- }
-
- /*SECTION 3*/
-/*@@media (max-width: 768px)*/
-
-
- @media (max-width: 768px) {
-
-  
-  
-     /*SECTION 1*/
-
-  #article1, #article4, #article2, #article5 {
-   }
-  
- 
-  #article3, #article6     {
- 
-
-  }
-/*SECTION 1*/
-/*SECTION 3*/
-
-#sec3-article2, #sec3-article1 {
- 
-} 
-
-#sec3-article3 {  
-
+  border: 1px solid black;
+  height: 200px;
 }
-}
-/*@@media (max-width: 768px)*/
-
-
-@media (max-width: 425px) {
-/*SECTION 1*/
-
-  #article1, #article2, #article3, #article4, #article5, #article6 { 
-  }
-
-/*SECTION 1*/
-/*SECTION 2*/
-
-  #section2 article {  
-
-    
-  }
-/*SECTION 2*/
-/*SECTION 3*/
-
-#section3 article { 
-}
-
-
-
-}
-
-
-
-  

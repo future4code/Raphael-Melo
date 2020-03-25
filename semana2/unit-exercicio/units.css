@@ -1,0 +1,34 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(157, 201, 37);
+    font-size: 16px;
+}
+
+.oigenterem {
+    font-size: 3em;
+}
+
+.oigentepadding {
+    padding: 2rem 0;
+}
+
+.oigentealtura {
+    height: 20vw;
+}
+
+.oigentelargura {
+    width: 50vh;
+}
+
+.oigentefontesetenta {
+    font-size: 70%;
+}
+
+.oigentelargurapai {
+    width: 10%;
+}
+
+.oigentealturapai {
+    height: 10%;
+}
