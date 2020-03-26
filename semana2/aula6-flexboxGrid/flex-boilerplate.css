@@ -1,0 +1,46 @@
+div {
+     border-radius: 10px;
+}
+
+.container {
+    width: 380px;
+    height: 375px;
+    background-color: rgb(119, 119, 119);
+    display: flex;
+    flex-direction: row;
+     
+    
+}
+
+.item {
+    background-color: #EEEEEE;
+}
+
+#item1 {
+    width: 50%;
+    height: 
+    ;
+    background-color: teal;
+}
+
+#item2 {
+    width: 125px;
+    height: 125px;
+    background-color: tomato;
+ }
+
+#item3 {
+    width: 125px;
+    height: 125px;
+    background-color: yellow;
+    
+
+}
+
+#item4 {
+    background-color: violet;
+    width: 125px;
+    height: 125px;
+    
+
+}
