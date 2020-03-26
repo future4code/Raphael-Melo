@@ -1,0 +1,44 @@
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+
+
+#container h2 {
+padding: 5VH;
+
+    
+}
+
+.video-item {
+    width: 80vw;
+    border: none;
+    font-size: 16px;
+    text-align: justify;
+}
+
+.video-item video {
+    min-width: 80vw;
+
+    
+}
+
+
+.video-text {
+    margin-top: 10px;
+
+}
+.video-text p {
+    font-size: 1.2em;
+}
+
+.video-item img {
+    margin-top: 30px;
+}
+
+
+
+ 
