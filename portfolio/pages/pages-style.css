@@ -1,0 +1,268 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    color: #fff;
+    text-decoration: none;    
+}
+
+body {
+    font-family: open sans,sans-serif;
+    color: #fff;
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    
+    
+}
+
+header {
+    width: 100%;
+
+    background-color:#0f2027;
+
+    
+    border-bottom: #0000001c 2px solid;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding: 20px 0px;
+    box-shadow: 0 8px 6px 0 gray;
+
+    
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;    
+}
+.logo img {
+    width: 18px;
+    padding-right: 5px;
+}
+
+.logo h2 {
+    font-weight: 600;
+    font-size: 20px;
+}
+.logo h2:hover{
+    text-decoration: underline;
+}
+.logo h3{
+    margin-left: 10px;
+    padding: 5px 10px;  
+    background-color:rgba(0,0,0,0.3);
+    width: 60px;
+    border-radius: 30px;
+    font-size: 9px;
+    text-transform: uppercase;
+    align-items: center;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.986);
+
+}
+.logo h3:hover{
+    background-color:rgb(252, 215, 6);
+}
+
+#nav-site {   
+    text-transform: uppercase;
+}
+
+#nav-site a {   
+    padding: 0 20px;
+}
+#nav-site a:hover {   
+    color: skyblue;
+}
+
+/*HEADER END*/
+/*MAIN START*/
+main {
+    background: #C33764;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #1D2671, #C33764);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #1D2671, #C33764); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+#home {
+
+    
+   
+   
+}
+.container-home {
+    height: 80vh;
+
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+     background: linear-gradient(to right, #0f2027, #203a43, #2c5364); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-bottom: 1px solid grey; 
+    border-bottom-right-radius: 200px; 
+
+    
+}
+
+.title h1{
+    font-size: 2.5em;
+    text-transform: uppercase;
+    font-weight: 600;
+
+    
+
+}
+.title p{
+    font-size: 1em;
+}
+.title span{ 
+    text-decoration: underline;
+ }
+    .title span:hover {   
+    color: skyblue;
+}
+
+
+#social img {
+    padding: 20px 4px 0 4px ;
+    width: 30px;
+}
+/*MAIN END*/
+
+/*PROJECTO start*/
+
+#projeto {
+    padding: 60px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#projeto h2  {
+    font-size: 2rem;
+    padding-bottom: 10px;
+}
+
+
+#projeto p  {
+    font-size: 1rem;
+    padding-bottom: 60px;
+}
+
+
+.images  {
+     
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+#projeto img {
+    width: 60%;
+    margin: 2px;
+}
+ 
+ 
+.link-acesso {
+    background-color: indianred;
+    margin-top: 50px;
+    padding: 30px;
+    border-radius: 50px;
+    transition: 1s;
+
+}
+
+.link-acesso:hover {
+    background-color: rgb(211, 75, 75); 
+    transition: 500ms;
+    cursor: pointer;
+}
+button {
+    text-transform: uppercase;
+}
+  
+ /*PROJETP END*/
+ /*footer start*/
+
+#footer {
+
+    padding: 60px 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    
+    
+}
+
+
+.footer-start {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;     
+}
+
+.footer-nav {
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+     padding-top: 10px;
+
+ }
+ .footer-nav a{
+     color: darkgray;
+     padding-top: 4px ;
+     font-size: 1.1em;
+     font-weight: 500;
+    
+}
+.footer-nav a:hover {
+    color: rgb(230, 230, 230);
+
+}
+
+#footer-social img {
+    padding: 10px 4px 0 4px ;
+    width: 20px;
+}
+
+.footer-contact {
+    font-size: 1.6em;
+}
+.footer-contact h3 {
+    color: rgb(16, 151, 151);
+}
+
+.footer-autor {
+    background-color:#0f2027;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+
+}
+.footer-autor h2 {
+    color: darkgray;
+    font-size: 0.8em;
+    font-weight: 600px;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.footer-autor h2:hover{
+    color: rgb(185, 181, 181);
+
+}
