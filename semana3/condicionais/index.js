@@ -109,7 +109,6 @@
 // }
 
 // // EXERCÍCIO 5 +++++++++++++++++++++++++++++++++++++++++
-
-Usar Array
-
-let animais = ['Maçã', 'Banana'];
+// a. Escreva o diagrama esquemático que melhor represente a árvore condicional do exercício. (Coloque a imagem do esquema no drive e gerem um link de compartilhamento público. Coloque este link num comentário durante a resolução deste exercício)
+//DIAGRAMA https://drive.google.com/file/d/1YRN2rUc7i9iLSh2fCgw_vpfmdMGnQBHG/view?usp=sharing
+//b. Não consegui entender a questão
