@@ -114,4 +114,64 @@ const esporte = prompt("QUal é seu esporte preferido?");
 console.log("QUal é seu esporte preferido?\nResposta: " , esporte)
 
 const cidade = prompt("Qual sua cidade?");
-console.log("Qual sua cidade? \nResposta: " , cidade)
+// console.log("Qual sua cidade? \nResposta: " , cidade)
+
+// a)
+let consumo = prompt("Qual foi seu consumo em Quilowatt-hora ?")
+let qw = 0.5
+let resultado = consumo * qw
+
+console.log(resultado)
+
+// b)
+
+let consumo = prompt("Qual foi seu consumo em Quilowatt-hora ?")
+let qw = 0.5
+let saldo = consumo * qw
+let desconto = (15 * saldo) / 100
+
+console.log("Sua conta custará R$" , desconto - saldo , ", obrigado.")
+
+// EXERCICIOS EXTRAS
+// a)
+let lib = 20
+let conversorKG = lib /2.2046
+console.log("20lb equivalem a " , conversorKG , "kg.")
+
+//b)
+let oz = 10.5
+let conversorKG = oz /35.274
+console.log("10oz equivalem a " , conversorKG , "kg.")
+
+
+//c)
+let mi = 100
+let conversorKm = mi /0.62137
+console.log("100 mil milhas equivalem a " , conversorKm , "km.")
+
+//d)
+let mt = 50
+let conversorMt = mt /3.2808
+console.log("50ft equivalem a " , conversorMt , "mt.")
+
+
+
+
+//e)
+let gal = 103.56
+let conversorL = gal / 0.26417
+console.log("103.56 Galões é equivalem a " , conversorL , "Ls.")
+
+
+
+//f)
+let xic = 450
+let conversorL = xic / 0.24
+console.log("450xic é equivalem a " , conversorL , "Ls.")
+
+
+
+//G)
+let mi = prompt("Digite as milhas:")
+let conversorKm = mi /0.62137
+console.log(mi , " equivalem a " , conversorKm , "Km.")
