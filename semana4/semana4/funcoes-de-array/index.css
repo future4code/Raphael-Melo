@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+#main {
+
+    text-align: center;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    background-color: bisque;
+}
+form {
+
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+}
+.planner {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.planner-item {
+    border-left: 1px solid grey;
+    width: 10vw;
+    height: 60vh;
+
+
+    }
+
+.titulo {
+    
+    border-bottom: 1px solid grey;
+}
