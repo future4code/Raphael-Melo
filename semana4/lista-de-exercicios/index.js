@@ -41,11 +41,25 @@ e) 'true'
 
 2. Travei
  
+3. 
+function tri(a,b,c){
+    if(a === b && b === c){
+        console.log("Esse é um triangulo Equilátero")
+    }
+    else if(a !== b && b!==c && a !== c){
+        console.log("Esse é um triangulo Escaleno")
+    }
+    else if(a === b && b!==c || a !==b && b === c || a===c && b !== a){
+        console.log("Esse é um triangulo Isósceles")
+    }
+    
+}
 
 
-
+4. 
 
 
 
 */ 
 
+ 
