@@ -29,4 +29,23 @@ algum é maior que o valor da variavel numero2;
 
 Por fim ele vai imprimir no console duas vezes. Primeiro> 1590 | E depois: -10
 
-*/git commit -m"Resposta do Ex.4"
+- **Exercícios de lógica de programação** 
+
+1.
+
+a) `false`
+b) 'true' 
+c) `true'
+d) 'true' 
+e) 'true'
+
+
+ 
+
+
+
+
+
+
+*/ 
+
