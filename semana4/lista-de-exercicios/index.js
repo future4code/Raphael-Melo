@@ -56,10 +56,65 @@ function tri(a,b,c){
 }
 
 
-4. 
+4.   
+const maiorEntre = (a, b) => {
+    let numeroA = a
+    let numeroB = b
+    let oMaior
 
+    if(numeroA>numeroB){
+        oMaior = a
+        console.log("O maior é:" , oMaior)
+    }else if (a<b){
+        oMaior = b
+        console.log("O maior é:" , oMaior)
+
+    }else{
+        console.log("numeros iguais")
+    }
+}
+  
+maiorEntre(2,3)
+
+//============
+
+
+//ii. 
+const divisiveisEntre = (a, b) => {
+    let numeroA = a
+    let numeroB = b
+ 
+    if(numeroA%numeroB=== 0){
+        console.log(numeroA,"é dividido por", numeroB)
+    }else{
+        console.log(numeroA,"Não são divisiveis",numeroB)
+    }
+}
+  
+divisiveisEntre(2,2)
+
+//==========
+
+
+//iii. 
+const diferencaEntre = (a, b) => {
+    let numeroA = a
+    let numeroB = b
+    let diferenca
+ 
+    if(numeroA, numeroB){
+        diferenca = numeroA - numeroB
+        console.log("A diferença entre eles é", Math.abs(diferenca))
+    }else{
+        console.log("São Iguais")
+    }
+}
+  
+diferencaEntre(2,3)
 
 
 */ 
 
- 
+
+
+
