@@ -43,7 +43,8 @@ e) 'true'
 
 2. Travei
  
-3. 
+*/
+3.// 
 function tri(a,b,c){
     if(a === b && b === c){
         console.log("Esse é um triangulo Equilátero")
@@ -60,8 +61,7 @@ function tri(a,b,c){
     //If que retorna isocelos se 2 deles forem iguais
 }
 
-
-4.   
+// 4.   
 const maiorEntre = (a, b) => {
     let numeroA = a
     let numeroB = b
@@ -81,7 +81,7 @@ const maiorEntre = (a, b) => {
     }
 }
   
-maiorEntre(2,3)
+// maiorEntre(2,3)
 
 //============
 
@@ -100,7 +100,7 @@ const divisiveisEntre = (a, b) => {
     }
 }
   
-divisiveisEntre(2,2)
+// divisiveisEntre(2,2)
 
 //==========
 
@@ -120,50 +120,37 @@ const diferencaEntre = (a, b) => {
     }
 }
   
-diferencaEntre(2,3)
+// diferencaEntre(2,3)
 
+ 
+//  AULA 15
 
-*/ 
-/*
-AULA 15
-
-1. TRAVADO
+// 1. TRAVADO
 
 const array = (meuArray = [1,2,3,4,5]) => {
     let segundoMaior
     let segundoMenor
-
     for(let num of meuArray){
-        segundoMaior = 
     }
-
 }
-array()
+  array()
 
-
-
-//
-
-
-2.
+// 2.
 
 let ola = function (){
-    alert("HelloFuture4")
+//  alert("HelloFuture4")
 }
-
 ola()
 
 
-**Exercícios de Objetos**
+// **Exercícios de Objetos**
 
-1.  
+// 1.  
 
-Arrays são estruturas que permitem salvar mais de um valor a uma variavel. 
-Objetos são estruturas que permitem representar dados mais completos como por exemplo arrays, functions...
+// Arrays são estruturas que permitem salvar mais de um valor a uma variavel. 
+// Objetos são estruturas que permitem representar dados mais completos como por exemplo arrays, functions...
 
-
-2. 
-
+// 2. 
 let criarRetangulo = (lado1, lado2) => {
     const retanguulo = {
         largura: lado1,
@@ -175,8 +162,7 @@ let criarRetangulo = (lado1, lado2) => {
     return retanguulo;
 }
 
-3.
-
+// 3.
 const titanic = {
     nome: "Titanic",
     ano: 1997,
@@ -188,9 +174,7 @@ console.log("Venha assistir ao filme" , titanic.nome, "de" , titanic.ano  , "dir
 , "e estrelado por" , titanic.atores[0], "," , titanic.atores[1] ,"e", titanic.atores[2] )
 
 
-4.
-
-
+// 4.
 const pessoa = {
     nome: "Maria",
     idade: 56,
@@ -206,7 +190,15 @@ let anonimizarPessoa = () =>{
 // função que cria um novo objeto a partir de um já existem
  }
 
- 
+// **Exercícios de Funções de array**
+// 1.
+// for
+// for of
+// .length
+let = arrayDeNumeros[1,2,3,4,5]
+arrayDeNumeros.length
+for (let i = 0; i <= arrayDeNumeros; i++)
+for (let numero of arrayDeNumeros);
 
-*/
+
 
