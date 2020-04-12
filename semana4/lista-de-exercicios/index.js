@@ -168,3 +168,12 @@ let criarRetangulo = (lado1, lado2) => {
 
 */
 
+const titanic = {
+    nome: "Titanic",
+    ano: 1997,
+    diretor: "James Cameron",
+    atores: ["Leonardo DiCaprio como Jack Dawson" , "Kate Winslet como Rose DeWitt Bukater", "Banda"]
+}
+
+console.log("Venha assistir ao filme" , titanic.nome, "de" , titanic.ano  , "dirigido por" ,titanic.diretor 
+, "e estrelado por" , titanic.atores[0], "," , titanic.atores[1] ,"e", titanic.atores[2] )
