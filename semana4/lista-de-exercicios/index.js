@@ -149,9 +149,22 @@ ola()
 **Exercícios de Objetos**
 
 1.  
- 
-Arrays são estruturas que permitem salvar mais de um valor a uma variavel. 
 
+Arrays são estruturas que permitem salvar mais de um valor a uma variavel. 
 Objetos são estruturas que permitem representar dados mais completos como por exemplo arrays, functions...
 
+
+2. 
+
+let criarRetangulo = (lado1, lado2) => {
+    const retanguulo = {
+        largura: lado1,
+        altura: lado2,
+        perimetro: (2* (lado1 + lado2)),
+        area: (lado1 * lado2) 
+    }
+    return retanguulo;
+}
+
 */
+
