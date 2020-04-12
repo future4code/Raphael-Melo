@@ -146,6 +146,12 @@ let ola = function (){
 ola()
 
 
+**Exercícios de Objetos**
 
+1.  
+ 
+Arrays são estruturas que permitem salvar mais de um valor a uma variavel. 
+
+Objetos são estruturas que permitem representar dados mais completos como por exemplo arrays, functions...
 
 */
