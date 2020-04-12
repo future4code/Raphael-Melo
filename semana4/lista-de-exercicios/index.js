@@ -1,4 +1,6 @@
 /*
+AULA 14
+
 1. No código temos uma função que deve receber como parametro() um number. Desntro do escopo da função temos uma const que trata o parametro recebido,
 só aceitando se for number. E Posteriormente temos um return que concatena uma string com a multiplicação da conta entre o valor em dolar e cotaçao.
 
@@ -114,7 +116,22 @@ diferencaEntre(2,3)
 
 
 */ 
+/*
+AULA 15
+
+1. TRAVADO
+
+const array = (meuArray = [1,2,3,4,5]) => {
+    let segundoMaior
+    let segundoMenor
+
+    for(let num of meuArray){
+        segundoMaior = 
+    }
+
+}
+array()
 
 
 
-
+//
