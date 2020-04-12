@@ -135,3 +135,17 @@ array()
 
 
 //
+
+
+2.
+
+let ola = function (){
+    alert("HelloFuture4")
+}
+
+ola()
+
+
+
+
+*/
