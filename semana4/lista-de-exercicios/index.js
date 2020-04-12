@@ -48,13 +48,16 @@ function tri(a,b,c){
     if(a === b && b === c){
         console.log("Esse é um triangulo Equilátero")
     }
+    //If que retorna equilatero se a,b e c forem iguais
     else if(a !== b && b!==c && a !== c){
         console.log("Esse é um triangulo Escaleno")
     }
+    //If que retorna escaleno se a,b e c forem diferentes
+
     else if(a === b && b!==c || a !==b && b === c || a===c && b !== a){
         console.log("Esse é um triangulo Isósceles")
     }
-    
+    //If que retorna isocelos se 2 deles forem iguais
 }
 
 
@@ -67,9 +70,11 @@ const maiorEntre = (a, b) => {
     if(numeroA>numeroB){
         oMaior = a
         console.log("O maior é:" , oMaior)
+// if que verifica se o numeroA é maior que o numeroB
     }else if (a<b){
         oMaior = b
         console.log("O maior é:" , oMaior)
+// if que verifica se o numeroB é maior que o numeroA
 
     }else{
         console.log("numeros iguais")
@@ -88,6 +93,8 @@ const divisiveisEntre = (a, b) => {
  
     if(numeroA%numeroB=== 0){
         console.log(numeroA,"é dividido por", numeroB)
+// if que verifica os numeros são divisiveis, para isso usei o modulos que verifica o resto
+
     }else{
         console.log(numeroA,"Não são divisiveis",numeroB)
     }
@@ -107,6 +114,7 @@ const diferencaEntre = (a, b) => {
     if(numeroA, numeroB){
         diferenca = numeroA - numeroB
         console.log("A diferença entre eles é", Math.abs(diferenca))
+//if que imprimi a diferenca entre os numeros e retorna um numero positivo da diferenca
     }else{
         console.log("São Iguais")
     }
@@ -162,11 +170,12 @@ let criarRetangulo = (lado1, lado2) => {
         altura: lado2,
         perimetro: (2* (lado1 + lado2)),
         area: (lado1 * lado2) 
+// objeto que recebe como vaor os parametros da função e o retorna como objeto.
     }
     return retanguulo;
 }
 
-*/
+3.
 
 const titanic = {
     nome: "Titanic",
@@ -177,3 +186,27 @@ const titanic = {
 
 console.log("Venha assistir ao filme" , titanic.nome, "de" , titanic.ano  , "dirigido por" ,titanic.diretor 
 , "e estrelado por" , titanic.atores[0], "," , titanic.atores[1] ,"e", titanic.atores[2] )
+
+
+4.
+
+
+const pessoa = {
+    nome: "Maria",
+    idade: 56,
+    email: 'falecom@maria.com',
+    endereco: "Avenida 2"
+}
+
+let anonimizarPessoa = () =>{
+    const novaPessoa = {
+        ...pessoa,
+        nome:"Anonimo"
+    }
+// função que cria um novo objeto a partir de um já existem
+ }
+
+ 
+
+*/
+
