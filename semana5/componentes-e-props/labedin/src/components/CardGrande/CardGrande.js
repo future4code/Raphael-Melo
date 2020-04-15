@@ -13,4 +13,4 @@ function CardGrande(props) {
     )
 }
 
-export default CardGrande;
+export default CardGrande

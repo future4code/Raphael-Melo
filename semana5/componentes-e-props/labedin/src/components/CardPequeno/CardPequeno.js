@@ -1,10 +1,15 @@
 import React from 'react';
 import './CardPequeno.css'
 
-function CardPequeno() {
-    return(
+function CardPequeno(props) {
+     return(
         <div className="smallCard-container">
-            <p></p>
-        </div>
+              <div className="smallCard-item">
+              <img src={ props.imagem } />
+              <p><strong>{props.texto0} </strong>{props.texto1}</p>
+              </div>
+         </div>
     )
 }
+
+export default CardPequeno

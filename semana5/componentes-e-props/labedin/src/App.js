@@ -1,7 +1,9 @@
 import React from 'react';
 import './App.css';
 import CardGrande from './components/CardGrande/CardGrande';
+import CardPequeno from './components/CardPequeno/CardPequeno';
 import ImagemButton from './components/ImagemButton/ImagemButton';
+ 
 
 function App() {
   return (
@@ -21,6 +23,27 @@ function App() {
       </div>
 
       <div className="page-section-container">
+
+        <CardPequeno
+          imagem="https://image.flaticon.com/icons/svg/561/561127.svg" 
+          texto0="Email:"
+          texto1="falecom@raphael.dev"
+        />
+        <CardPequeno 
+          imagem="https://image.flaticon.com/icons/svg/254/254638.svg" 
+          texto0="Telefone:"
+          texto1="(13) 96666-9869"
+        />
+
+        <CardPequeno 
+        imagem="https://image.flaticon.com/icons/svg/1295/1295079.svg" 
+        texto0="Endereço:"
+        texto1="Rua Banininha, Nº Infinito, Guarujá"
+
+        />
+      </div>      
+
+      <div className="page-section-container">
         <h2>Experiências profissionais</h2>
         <CardGrande 
           imagem="https://app.livetalk.ai/bots/1474520602/avatar" 
@@ -33,8 +56,10 @@ function App() {
           nome="Lopes Imobiliária" 
           descricao="Consultória imobiliária." 
         />
+        
       </div>
-
+       
+     
       <div className="page-section-container">
         <h2>Minhas redes sociais</h2>
         <ImagemButton 
