@@ -14,25 +14,30 @@ class Post extends React.Component {
     numeroCurtidas: 0,
     comentando: false,
     numeroComentarios: 0
-    //states que controla as mudanças
   }
 
   onClickCurtida = () => {
-    this.setState({
-      curtido: !this.state.curtido
-    })
+    let novoNumeroCurtidas
 
+    if(this.state.curtido) {
+      novoNumeroCurtidas = this.state.numeroCurtidas - 1
+    } else {
+      novoNumeroCurtidas = this.state.numeroCurtidas + 1
+    }
+
+    this.setState({
+      curtido: !this.state.curtido,
+      numeroCurtidas: novoNumeroCurtidas
+    })
   }
 
   onClickComentario = () => {
-    // quando alguem clicar a funcao onClickComentário muda o estado de comentando
     this.setState({
       comentando: !this.state.comentando
     })
   }
 
   aoEnviarComentario = () => {
-  // quando o botão de enviar comentário a função ao enviar comentário soma mais 1 ao numero de coments
     this.setState({
       comentando: false,
       numeroComentarios: this.state.numeroComentarios + 1
@@ -68,6 +73,7 @@ class Post extends React.Component {
           onClickIcone={this.onClickCurtida}
           valorContador={this.state.numeroCurtidas}
         />
+
         <IconeComContador
           icone={iconeComentario}
           onClickIcone={this.onClickComentario}
