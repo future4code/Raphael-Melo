@@ -7,17 +7,22 @@ import CSS from './Components/App.css'
 
 
 class App extends React.Component {
-    state = {};
+    state = {
+      etapa:1,
+    };
+
+    let renderizaEtapa = () => {
+      switch (setState.etapa) {
+        case 'Etapa1':
+          console.log('Oranges are $0.59 a pound.');
+          break;
 
 
     render(){
 
         return(
         <div className="container">
-          <Etapa1></Etapa1>
-          <Etapa2></Etapa2>
-          <Etapa3></Etapa3>
-          <Etapa4></Etapa4>
+          
           <button>Proxima etapa</button>  
 
           
