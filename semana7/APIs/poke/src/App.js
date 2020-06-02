@@ -9,7 +9,11 @@ class App extends React.Component {
 
   componentDidMount = () => {
     axios
+
+    
+
       .get("https://pokeapi.co/api/v2/pokemon/?limit=201")
+
       .then(response => {
         this.setState({ pokeList: response.data.results });
       })
