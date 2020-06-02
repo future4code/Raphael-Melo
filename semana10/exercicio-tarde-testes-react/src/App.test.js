@@ -4,27 +4,22 @@ import App from "./App";
 
 
 describe('', () => {
-   
-    test('Ao criar um post ele deve aparecer na pagina', () => {
-        const { getByPlaceholderText, getAllByText } = render( <input /> );
+    test('', () => {
+        const { getByText, getByPlaceholderText } = render(<App />)
 
-        const input = getByPlaceholderText("Novo post")
-        
+        const input = getByPlaceholderText(/post/)
+
         fireEvent.change(input, {
-            input: {
+            target: {
                 value: "post teste"
             }
         });
 
-        const button = getByText(/Adicionar/i)
+        const button = getByText(/Adicionar/i);
 
-        fireEvent.click(button)
+        fireEvent.click(button);
 
         expect(getByText('post teste')).toBeInTheDocument();
-
-
-
-        
 
     });
 });
