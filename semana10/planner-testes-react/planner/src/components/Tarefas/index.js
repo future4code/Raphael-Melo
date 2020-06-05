@@ -2,6 +2,7 @@ import React from 'react'
 import styled from 'styled-components';
 
 
+
 const ContainerTarefas = styled.div`
     text-align:center;
 
@@ -20,23 +21,27 @@ const DivTarefa = styled.div`
 `;
 
 
-const TarefaStyle = styled.ul`
+const ListaTarefas = styled.ul`
     color: purple;
     text-align:justify;
+    
 
 `;
 
 
-export default function index() {
+export default function index(props) {
     return (
         <ContainerTarefas>
             <DivTarefa>
                 <div>
                 Segunda
                 </div>
-                <TarefaStyle>
-                    
-                </TarefaStyle>
+                <ListaTarefas>
+
+                <li>Lavar Louça</li>
+
+                        
+                </ListaTarefas>
             </DivTarefa>
 
             <DivTarefa>
