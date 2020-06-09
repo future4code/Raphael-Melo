@@ -153,11 +153,11 @@ export default function App() {
       </ContainerInputs>
 
       <ContainerTarefas>
+       { listaFinalSegunda.map(tarefa => <li>{ tarefa }</li>) };   
 
         <DivTarefa>
           Segunda
-          
-        </DivTarefa>
+          </DivTarefa>
 
 
         <DivTarefa>
