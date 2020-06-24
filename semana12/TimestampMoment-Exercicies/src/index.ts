@@ -1,8 +1,9 @@
 import * as moment from "moment"
+    moment.locale('pt-br')
 
     type events = { name: string, description: string, initialAt: moment.Moment, finishAt: moment.Moment}
 
-let eventsCalendar: events [] = [
+const eventsCalendar: events [] = [
     {
         name: 'Viagem a Praia', 
         description: 'Conhecer as praias de Guarujá', 
@@ -17,4 +18,20 @@ let eventsCalendar: events [] = [
     },
 ]    
 
- 
+const printAllEvents = (eventsCalendar: events[]): any => {
+    eventsCalendar.forEach((item: events) => {
+        const duration = item.finishAt.diff(item.initialAt, "minutes")
+        
+        const today = moment();
+        const daysUntilEvent = item.initialAt.diff(today, "days")
+
+        console.log(`
+            Nome: ${item.name}
+            Horario de ínicio: ${item.initialAt}
+            Horário de fim: ${item.finishAt}
+            Descrição: ${item.description}
+        `)
+    })
+}
+
+console.log(printAllEvents(eventsCalendar))
