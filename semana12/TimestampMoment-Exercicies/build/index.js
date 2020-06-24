@@ -15,6 +15,12 @@ const eventsCalendar = [
         initialAt: moment("02/11/2020 10:30", "DD/MM/YYYY", "HH:mm"),
         finishAt: moment("02/11/2020 12:00", "DD/MM/YYYY", "HH:mm")
     },
+    {
+        name: 'Estudar Typescript',
+        description: 'Assistir aulas da Labenu e praticar',
+        initialAt: moment("02/12/2020 10:30", "DD/MM/YYYY", "HH:mm"),
+        finishAt: moment("02/02/2021 12:00", "DD/MM/YYYY", "HH:mm")
+    },
 ];
 const printAllEvents = (eventsCalendar) => {
     eventsCalendar.forEach((item) => {
@@ -26,6 +32,10 @@ const printAllEvents = (eventsCalendar) => {
             Horario de ínicio: ${item.initialAt}
             Horário de fim: ${item.finishAt}
             Descrição: ${item.description}
+            Duração: ${duration}
+            Dias Até o evento: ${daysUntilEvent}
+            
+
         `);
     });
 };
